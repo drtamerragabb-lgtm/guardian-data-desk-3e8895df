@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const projectDir = path.resolve(__dirname, '..');
+const projectDir = '/vercel/share/v0-project';
 
 // Remove package-lock.json
 const lockFile = path.join(projectDir, 'package-lock.json');
